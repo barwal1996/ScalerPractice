@@ -3,8 +3,10 @@ import java.util.Scanner;
 public class pattern2 {
     public static void main(String[] args) {
         //pat1(5);
-        pat2(5);
+        //pat2(5);
+        pat3(5);
         //pat4(5);
+        pat5(5);
         //Scanner s = new Scanner(System.in);
         
     }
@@ -36,6 +38,25 @@ public class pattern2 {
              System.out.println();
         }
     }
+/*
+
+*****
+****
+***
+**
+*
+
+*/
+    public static void pat3(int n){
+        int stars = n;
+        for(int i =1;i<=n;i++){
+            for(int j =1;j<=stars;j++){
+                System.out.print("*");
+            }
+            System.out.println();
+            stars--;
+        }
+    }
     /*
     print 
     1 
@@ -62,4 +83,31 @@ public class pattern2 {
            // val++;
         }
     }
+/*
+Full pryamid
+
+    * 
+   * * 
+  * * * 
+ * * * * 
+* * * * * 
+
+*/
+        public static void pat5(int n){
+            //   int k =n-1;
+               for(int i =1;i<=n;i++){
+                   for(int j=n-i;j>=1;j--){
+                       System.out.print(" ");
+                   }
+                   for(int l = 1;l<=i;l++)
+                   {
+                       System.out.print("* ");
+                       
+                   }
+                   System.out.println();
+               }
+    }
 }
+        
+    
+

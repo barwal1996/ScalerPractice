@@ -45,19 +45,6 @@ public class Diamond {
                 System.out.println();
         }
     }
-       /*
-        * 
-       * * 
-      * * * 
-     * * * * 
-    * * * * * 
-   * * * * * * 
-    * * * * * 
-     * * * * 
-      * * * 
-       * * 
-        * 
-       */
     public static void  fullDiamond(int n) {
         int k =n-1;
         for(int i =0;i<n-1;i++){
@@ -80,21 +67,6 @@ public class Diamond {
             System.out.println();
         }
     }
-       /*
-*
-**
-***
-****
-*****
-******
-*******
-******
-*****
-****
-***
-**
-*       
-       */
     public static void halfDiamond(int n){
         int k = n-1;
         
